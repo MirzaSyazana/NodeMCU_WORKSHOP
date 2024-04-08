@@ -1,10 +1,10 @@
 #include <FirebaseESP8266.h>
 #include <ESP8266WiFi.h>
 
-#define FIREBASE_HOST "fir-8e392-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define FIREBASE_AUTH "HhKLdMxjUdJ1sRVSLfek9XqS73kaa9ZpaGeJ3IYt"
-#define WIFI_SSID "Kroom"
-#define WIFI_PASSWORD "kidoMain"
+#define FIREBASE_HOST "Firebase URL"            //remove the "https://" and "/"at the end
+#define FIREBASE_AUTH "Firebase authentication"
+#define WIFI_SSID "your wifi ssid"
+#define WIFI_PASSWORD "your wifi password"
 
 // Define FirebaseESP8266 data object
 FirebaseData firebaseData;
